@@ -2,7 +2,7 @@
 Patrick Traynor Coding Assignment #1
 10/9/2023
 
-Daily Aggregate Stock Market Dat
+Daily Aggregate Stock Market Data
 
 
 Polygon free API link:
