@@ -1,11 +1,16 @@
 # Coding-Assignment-1-Traynor
+Patrick Traynor Coding Assignment #1
+10/9/2023
 
-Polygon free API link
+Daily Aggregate Stock Market Dat
+
+
+Polygon free API link:
 https://polygon.io/docs/stocks/getting-started
-Base API endpoint
+Base API endpoint:
 https://api.polygon.io/v2/aggs/ticker/
 
-Data Collection code description
+Data Collection code markdown description:
 1. Import libraries and modules: csv, time, json, datetime, requests.
 2. Specify which of the stock ticers you want include in the ticker_symbols list. These are the companies you want to retrieve data from, at least 200 as instructed.
 3. Set parameters for the configuration
@@ -25,7 +30,7 @@ Data Collection code description
 
 Problems that occured in API web-scraping: Initially used Wikipedia, topic I initially chose was animals and animal groups. In scraping the data, I struggled to get certain data off the site, as it was listed in weird and different formats that were inconsistent. Forced me to find a different API. Polygon is a paid API I found online, but managed to get free data. In terms of writing the code, it was pretty straight forward, using the Hands-on assignments as reference for scraping. 
 
-Project Goal and Description: As I mentioned, I started with something simple like animals for my data, but ran into problems and just didn't feel like it was a good topic as a whole. Decided to source for data that I cared for more, something I Was actually interested in. While looking for new API's I decided to switch to looking at Stocks. It was fairly easy to get enough data(200 datapoints) once I came across Polygon. From there I just had to pick what analyses I was going to make. In my processed data, I added the date as prompted, and created transactions for each stock's : Closing Price, Highest Price, Lowest Price, Number of Transactions made, Open Price, Volume, and its Average Price. From this I had a multitude of options from which I could choose to make my graphs. I initialy attempted to look at a day to day change in prices for each, and looking at their individual volumes, but it became too complicated and I could not write that code to plot successfully. I ended up choosing to look at the gain/loss for each stock over a period of time, and also graph the number of transactions for each. I planned to look at these two graphs and compare the stocks that had significant gain or loss, and how many transactions were made for them. 
+Project Goal and Description: As I mentioned, I started with something simple like animals for my data, but ran into problems and just didn't feel like it was a good topic as a whole. Decided to source for data that I cared for more, something I Was actually interested in.  I decided to look into the daily aggregated stock market data for a list of specified companies on Polygon. It was fairly easy to get enough data(200 datapoints) once I came across Polygon. From there I just had to pick what analyses I was going to make. In my processed data, I added the date as prompted, and created transactions for each stock's : Closing Price, Highest Price, Lowest Price, Number of Transactions made, Open Price, Volume, and its Average Price. From this I had a multitude of options from which I could choose to make my graphs. I initialy attempted to look at a day to day change in prices for each, and looking at their individual volumes, but it became too complicated and I could not write that code to plot successfully. I ended up choosing to look at the gain/loss for each stock over a period of time, and also graph the number of transactions for each. I planned to look at these two graphs and compare the stocks that had significant gain or loss, and how many transactions were made for them. 
 
 
 MIT License
